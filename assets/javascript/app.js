@@ -52,7 +52,7 @@
     //questions/answers
     function questionAnswer() {
         answered = false;
-        timeRemaining = 5;
+        timeRemaining = 21;
         intervalID = setInterval(timer, 1000);
         if (answered === false) {
             timer();
